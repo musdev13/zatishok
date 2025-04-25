@@ -144,12 +144,13 @@ header nav a:hover {
 .conclager p {
   font-size: 40px;
   transition: transform 0.3s ease;
+  text-align: center;
 }
 .conclager p:hover {
   transform: scale(1.03);
 }
 .conclager img {
-  margin-top: 46px;
+  margin-top: 50px;
   transition: transform 0.3s ease;
 }
 .conclager img:hover {

@@ -157,9 +157,10 @@ header{
         &:hover{
             transform: scale(1.03);
         }
+        text-align: center;
     }
     img{
-        margin-top: 46px;
+        margin-top: 50px;
         transition: transform 0.3s ease;
         &:hover{
             transform: scale(1.03);
