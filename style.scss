@@ -244,6 +244,26 @@ header{
     }
 }
 
+.err{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1,p{
+        text-align: center;
+    }
+    h1{
+        font-size: 64px;
+    }
+    p{
+        font-size: 40px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    margin-top: 146px;
+    margin-bottom: 600px;
+}
+
 footer{
     height: 166px;
     background-color: black;
@@ -298,6 +318,21 @@ footer{
             font-size: 36px;
             width: 90%;
         }
+        img {
+            max-width: 90%;
+        }
+    }
+
+    .err {
+        h1 {
+            font-size: 56px;
+        }
+        
+        p {
+            font-size: 36px;
+            width: 90%;
+        }
+        
         img {
             max-width: 90%;
         }
@@ -392,6 +427,26 @@ footer{
         
         img {
             max-width: 90%;
+        }
+    }
+
+    .err {
+        margin-top: 100px;
+        margin-bottom: 300px;
+        
+        h1 {
+            font-size: 48px;
+        }
+        
+        p {
+            font-size: 32px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 0 20px;
+        }
+        
+        img {
+            max-width: 80%;
         }
     }
 }
