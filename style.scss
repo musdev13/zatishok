@@ -219,6 +219,31 @@ header{
     }
 }
 
+.production{
+    margin-top: 146px;
+    margin-bottom: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1,p{
+        text-align: center;
+    }
+    h1{
+        font-size: 64px;
+        margin-bottom: 50px;
+    }
+    p{
+        font-size: 40px;
+        margin-bottom: 100px;
+    }
+    img{
+        transition: transform 0.3s ease;
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+}
+
 footer{
     height: 166px;
     background-color: black;
@@ -262,6 +287,19 @@ footer{
         p {
             font-size: 36px;
             width: 90%;
+        }
+    }
+
+    .production {
+        h1 {
+            font-size: 56px;
+        }
+        p {
+            font-size: 36px;
+            width: 90%;
+        }
+        img {
+            max-width: 90%;
         }
     }
 }
@@ -332,6 +370,28 @@ footer{
                     font-size: 28px;
                 }
             }
+        }
+    }
+
+    .production {
+        margin-top: 100px;
+        margin-bottom: 200px;
+        
+        h1 {
+            font-size: 48px;
+            margin-bottom: 40px;
+        }
+        
+        p {
+            font-size: 32px;
+            margin-bottom: 60px;
+            br {
+                display: none; // Убираем переносы строк на планшетах
+            }
+        }
+        
+        img {
+            max-width: 90%;
         }
     }
 }
@@ -432,6 +492,30 @@ footer{
         
         .per {
             margin-bottom: 20px;
+        }
+    }
+
+    .production {
+        margin-top: 80px;
+        margin-bottom: 150px;
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+        
+        p {
+            font-size: 24px;
+            margin-bottom: 40px;
+            padding: 0 15px;
+            br {
+                display: inline; // Возвращаем переносы строк на мобильных
+            }
+        }
+        
+        img {
+            max-width: 95%;
+            object-fit: contain;
         }
     }
 }

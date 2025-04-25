@@ -199,6 +199,31 @@ header nav a:hover {
   text-align: center;
 }
 
+.production {
+  margin-top: 146px;
+  margin-bottom: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.production h1, .production p {
+  text-align: center;
+}
+.production h1 {
+  font-size: 64px;
+  margin-bottom: 50px;
+}
+.production p {
+  font-size: 40px;
+  margin-bottom: 100px;
+}
+.production img {
+  transition: transform 0.3s ease;
+}
+.production img:hover {
+  transform: scale(1.05);
+}
+
 footer {
   height: 166px;
   background-color: black;
@@ -234,6 +259,16 @@ footer img:hover {
   .about p {
     font-size: 36px;
     width: 90%;
+  }
+  .production h1 {
+    font-size: 56px;
+  }
+  .production p {
+    font-size: 36px;
+    width: 90%;
+  }
+  .production img {
+    max-width: 90%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -285,6 +320,24 @@ footer img:hover {
   }
   .about .reasons .reason p {
     font-size: 28px;
+  }
+  .production {
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+  .production h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  .production p {
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+  .production p br {
+    display: none;
+  }
+  .production img {
+    max-width: 90%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -349,5 +402,26 @@ footer img:hover {
   }
   .about .per {
     margin-bottom: 20px;
+  }
+  .production {
+    margin-top: 80px;
+    margin-bottom: 150px;
+  }
+  .production h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  .production p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    padding: 0 15px;
+  }
+  .production p br {
+    display: inline;
+  }
+  .production img {
+    max-width: 95%;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }/*# sourceMappingURL=style.css.map */
