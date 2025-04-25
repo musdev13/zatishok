@@ -228,6 +228,13 @@ footer img:hover {
   header nav a {
     font-size: 36px;
   }
+  .about h1 {
+    font-size: 56px;
+  }
+  .about p {
+    font-size: 36px;
+    width: 90%;
+  }
 }
 @media screen and (max-width: 768px) {
   header {
@@ -259,6 +266,24 @@ footer img:hover {
   .collect .profile .content p {
     width: 90%;
     margin: 0 auto;
+    font-size: 28px;
+  }
+  .about {
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+  .about h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+  .about p {
+    font-size: 32px;
+  }
+  .about .reasons {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .about .reasons .reason p {
     font-size: 28px;
   }
 }
@@ -301,5 +326,28 @@ footer img:hover {
   }
   footer img {
     max-width: 100px;
+  }
+  .about {
+    margin-top: 80px;
+    margin-bottom: 150px;
+  }
+  .about h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  .about p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .about .reasons .reason p {
+    font-size: 22px;
+  }
+  .about .reasons .reason .dot {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+  }
+  .about .per {
+    margin-bottom: 20px;
   }
 }/*# sourceMappingURL=style.css.map */

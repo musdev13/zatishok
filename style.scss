@@ -253,6 +253,17 @@ footer{
             }
         }
     }
+
+    .about {
+        h1 {
+            font-size: 56px;
+        }
+        
+        p {
+            font-size: 36px;
+            width: 90%;
+        }
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -293,6 +304,31 @@ footer{
                 p {
                     width: 90%;
                     margin: 0 auto;
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+
+    .about {
+        margin-top: 100px;
+        margin-bottom: 200px;
+        
+        h1 {
+            font-size: 48px;
+            text-align: center;
+        }
+        
+        p {
+            font-size: 32px;
+        }
+        
+        .reasons {
+            width: 90%;
+            margin: 0 auto;
+            
+            .reason {
+                p {
                     font-size: 28px;
                 }
             }
@@ -363,6 +399,39 @@ footer{
         
         img {
             max-width: 100px;
+        }
+    }
+
+    .about {
+        margin-top: 80px;
+        margin-bottom: 150px;
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+        
+        p {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+        
+        .reasons {
+            .reason {
+                p {
+                    font-size: 22px;
+                }
+                
+                .dot {
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 10px;
+                }
+            }
+        }
+        
+        .per {
+            margin-bottom: 20px;
         }
     }
 }
